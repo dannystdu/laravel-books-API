@@ -44,7 +44,7 @@ GET /books/{book_id}`
 response:
 ```json  
 {
-	 "book_id": 1239,
+    "book_id": 1239,
     "book_name": "Student Cookbook For Dummies",
     "book_description": "Are you a student who s fed up with making do with greasy food and monotonous ingredients? A parent who worries about your son or daughter s mounting tendency to nip to the fast–food van at all times of the day",
     "book_author": 9,
@@ -59,3 +59,10 @@ Please design it by yourself
 
 ### Delete a book's profile
 Please design it by yourself
+
+## notes
+- Please follow the standard resultful API guideline
+- Please use middleware for data validation
+- Please use laravel migration to create resource DB.
+- Anything not mention in this readme,just do it in your own way.
+
